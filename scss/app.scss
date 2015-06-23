@@ -39,6 +39,8 @@
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
 
+/*Header Styling*/
+
 div.logo {
   height: 3.25rem;
   width: 3.25rem;
@@ -47,14 +49,10 @@ div.logo {
   margin-right: auto;
 }
 
-
 #page-header {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
-
-
-
 
 nav.top-bar.visible-for-large-up{
   height: 10rem;
@@ -89,23 +87,47 @@ nav.container section.ul {
   }
 }
 
-div.page-wrapper {
+/*Content Styling*/
+
+div.cart-wrapper {
   margin-left: 5%;
   margin-right: 5%;
-  margin-top: 5vh;
+  margin-top: 2.5vh;
   margin-bottom: 5vh;
 
-  .row {
+  .product-container {
     background-color: rgba($silver, 0.6);
     margin-top: 0.25rem;
-    height: 10rem;
+  }
+
+  #product-left {
+    display: inline-block;
+    width: 33%;
+    float: left;
+  }
+
+  #product-right {
+    display: inline-block;
+    width: 67%;
+    padding-left: 1rem;
   }
 
   #product-info img {
+    padding: 0;
     margin-top: 0.25rem;
     margin-bottom: 0.25rem;
-    height: 5rem;
+    height: 150px;
     background-color: $oil;
-    width: 10rem;
+    width: 150px;
+  }
+
+  #test {
+    padding: 0;
+    margin: 0;
+    div {
+      background-color: rgba($silver, 0.6);
+      border: 2px solid $white;
+      margin: 0;
+    }
   }
 }
