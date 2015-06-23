@@ -42,8 +42,8 @@
 /*Header Styling*/
 
 div.logo {
-  height: 3.25rem;
-  width: 3.25rem;
+  height: 3rem;
+  width: 3rem;
   background-color: $oil;
   margin-left: auto;
   margin-right: auto;
@@ -95,9 +95,7 @@ div.cart-wrapper {
   margin-top: 2.5vh;
   margin-bottom: 5vh;
 
-  .panel {
-  }
-  .product-container {
+  /*.product-container {
     background-color: rgba($silver, 0.6);
     margin-top: 0.25rem;
 
@@ -126,11 +124,56 @@ div.cart-wrapper {
 
   #test {
     padding: 0;
-    margin:;
     div {
       background-color: rgba($silver, 0.6);
       border: 2px solid $white;
       margin: 0;
     }
+  }*/
+
+  .info-container {
+    font-size: 0.25rem;
+    margin: 0;
+    padding: 0;
+    border: solid 1px $white;
+    display: inline-block;
+    position: relative;
+
+    .info-title {
+      border: solid 1px $white;
+      background-color: $silver;
+      height: 2rem;
+      h6 {
+        padding-top: 0.15rem;
+        padding-left: 0.5rem;
+        font-size: 0.75rem;
+        font-weight: bold;
+      }
+    }
+
+    .info-body {
+      border: solid 1px $white;
+      margin-top: 0.25rem;
+      background-color: rgba($silver, 0.8);
+      height: 10rem;
+
+      .row {
+        margin-top: 0.5rem;
+      }
+
+      #product-left {
+        display: inline-block;
+        img {
+          height: 150px;
+          width: 150px;
+          background-color: $oil;
+        }
+      }
+
+      #product-right {
+        display: inline-block;
+      }
+    }
   }
 }
+
