@@ -95,9 +95,12 @@ div.cart-wrapper {
   margin-top: 2.5vh;
   margin-bottom: 5vh;
 
+  .panel {
+  }
   .product-container {
     background-color: rgba($silver, 0.6);
     margin-top: 0.25rem;
+
   }
 
   #product-left {
@@ -123,7 +126,7 @@ div.cart-wrapper {
 
   #test {
     padding: 0;
-    margin: 0;
+    margin:;
     div {
       background-color: rgba($silver, 0.6);
       border: 2px solid $white;
